@@ -1,0 +1,9 @@
+function Palindromo(cadena) {
+//proceso
+    return cadena.split('').reverse().join('') == cadena;
+}
+//se ejecuta y da resultado de forma booleana
+console.log(Palindromo('reconocer'));   // true
+console.log(Palindromo('proceso'));   // false
+console.log(Palindromo('front-end'));   // false
+console.log(Palindromo('somos'));   // true

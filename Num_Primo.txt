@@ -1,0 +1,31 @@
+//Se hace con un bucle y una funcion.
+
+function NumPrimo(num) {
+
+for(var i=2;i<=num-1;i++) {
+
+if(num%i==0) {
+
+return false;
+
+}
+
+}
+
+return true;
+
+}
+
+for(var i=1;i<=10;i++) {
+
+if(NumPrimo(i)) {
+//Imprime si es primero el numero
+console.log("Es numero primo  ",i);
+
+} else {
+// Imprime si no es primo el numero
+console.log("No es numero primo  ",i);
+
+}
+
+}
