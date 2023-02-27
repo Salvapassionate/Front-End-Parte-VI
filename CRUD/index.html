@@ -13,6 +13,10 @@
             <td>
                 <form onsubmit="event.preventDefault();onSubmitForm();">
                     <div>
+                        <label>Id</label>
+                        <input type="text" name="Id" id="Id">
+                    </div>
+                    <div>
                         <label>Id Nombre</label><label class="classValidate hide" id="labelId" >*Este campo es necesario</label>
                         <input type="text" name="Name" id="Name">
                     </div>
@@ -36,7 +40,8 @@
             <td>
                 <table class="mainTable" id="employeeList">
                     <thead>
-                        <th>ID Nombre</th>
+                        <th>Id</th>
+                        <th>Nombre</th>
                         <th>NIT</th>
                         <th>Fecha fundación</th>
                         <th>Dirección</th>
