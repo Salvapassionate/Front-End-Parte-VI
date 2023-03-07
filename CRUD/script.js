@@ -110,8 +110,9 @@ function updateAfterPageRefresh(){
 
             document.getElementById("tbody").innerHTML +=
             `<tr>
-                <td>${nombre}</td>
                 <td>${id}</td>
+                <td>${nombre}</td>
+                <td>${nit}</td>
                 <td>${fecha}</td>
                 <td>${direccion}</td>
                 <td><a onClick=editForm(this)>Edit</a><a onClick=deleteRecord(this)>Delete</a></td>
